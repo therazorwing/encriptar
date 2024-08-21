@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap"
+    />
+  </head>
+  <body>
+
+      
+      <main>
+      <div class="logo">
+        <img class="logo-icon" alt="Logo de Alura" src="./public/logo.svg" />
+      </div>
+        <section>
+          <textarea class="text-area" id="inputText" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+        <div class="aviso">
+          <img class="biexclamation-circle-fill-icon"   alt="" src="./public/biexclamationcirclefill.svg" />
+
+          <div class="solo-letras-minsculas">
+            Solo letras minúsculas y sin acentos
+          </div>
+        </div>
+        <div class="botones">
+          <button class="btn encriptar" onclick="btnEncriptar()">Encriptar</button>
+          <button class="btn desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+          <button class="btn desencriptar" onclick="btnLimpiar()">Limpiar</button>
+        </div>
+         </section>
+      
+      <div class="mensajebox">
+        <textarea  class="mensaje ocultar" id="mensajeTextArea" cols="20" rows="5"> </textarea>
+        <div class="resultado">
+        <img class="notxt" src="public/mueco.svg">
+        <div class="text01"> Ningun mensaje fue encontrado</div>
+        <div class="text02"> Ingresa el texto que desees encriptar o desencriptar.</div>
+      </div>
+        <button class="btn copiar ocultar"  onclick="copiarTexto()">Copiar</button>
+          
+          
+            
+           
+          
+        
+      </section>
+    </main>
+<script src="script.js"></script>
+  </body>
+</html>

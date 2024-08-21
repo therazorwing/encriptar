@@ -1,0 +1,210 @@
+.logo-icon {
+  width: 120px;
+  position: relative;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.page-icon {
+  width: 40px;
+  position: relative;
+  height: 40px;
+}
+.list {
+  border-radius: var(--br-781xl);
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+  gap: var(--gap-base);
+}
+.menu {
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.04);
+  border-radius: var(--br-781xl);
+  background-color: var(--color-gray);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl);
+}
+.page-icon-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  border-radius: 50%;
+  background-color: var(--dark-blue-dark-blue-300);
+}
+.pt {
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  line-height: 150%;
+}
+.page-icon-item {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  border-radius: 50%;
+  background-color: rgba(10, 56, 113, 0);
+}
+.page-icon3 {
+  width: 40px;
+  position: relative;
+  height: 40px;
+  color: var(--dark-blue-dark-blue-300);
+}
+.logo {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 120px;
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+}
+.ingrese-el-texto {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  line-height: 150%;
+  display: inline-block;
+  width: 577px;
+  cursor: pointer;
+}
+.button1 {
+  flex: 1;
+  position: relative;
+}
+.button {
+  width: 328px;
+  border-radius: var(--br-5xl);
+  background-color: var(--dark-blue-dark-blue-300);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+}
+.button2 {
+  width: 328px;
+  border-radius: var(--br-5xl);
+  background-color: #d8dfe8;
+  border: 1px solid var(--dark-blue-dark-blue-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl);
+  color: var(--dark-blue-dark-blue-300);
+}
+.button-parent {
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--white);
+}
+.biexclamation-circle-fill-icon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.solo-letras-minsculas {
+  position: relative;
+  line-height: 150%;
+  opacity: 0.8;
+}
+.biexclamation-circle-fill-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--gray-gray-400);
+}
+.frame {
+  overflow: hidden;
+  text-align: left;
+  font-size: 32px;
+  color: var(--dark-blue-dark-blue-300);
+}
+.frame-child {
+
+  box-shadow: var(--shadow);
+  border-radius: 32px;
+  background-color: var(--white);
+
+}
+.mueco-icon {
+
+  width: 336px;
+  height: 304px;
+  overflow: hidden;
+}
+.ningn-mensaje-fue {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+}
+.ingresa-el-texto {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 150%;
+  color: var(--gray-gray-400);
+}
+.ningn-mensaje-fue-encontrado-parent {
+  position: absolute;
+  top: 579px;
+  left: 32px;
+  width: 336px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.frame1 {
+  position: absolute;
+  top: 40px;
+  left: 1000px;
+  width: 400px;
+  height: 944px;
+  overflow: hidden;
+  font-size: 24px;
+  color: var(--gray-gray-500);
+}
+.encriptador-1-desktop {
+  width: 100%;
+  position: relative;
+  background-color: var(--light-blue-light-blue-100);
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--white);
+  font-family: var(--font-inter);
+}
