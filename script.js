@@ -1,4 +1,4 @@
-tconst inputText = document.getElementById('inputText');
+const inputText = document.getElementById('inputText');
 
   inputText.addEventListener('input', function() {
     const regex = /[^a-z\s]/g;
@@ -38,7 +38,7 @@ function btnDesencriptar(){
     const textEncriptado = desencriptar(textArea.value)
     mensaje.value = textEncriptado
     textArea.value = "";
-     mensaje.style.display = 'block';
+    mensaje.style.display = 'block';
     copiar.style.display = 'block';
     resultado.style.display = 'none';
     mensaje.style.backgroundImage="none";
