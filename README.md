@@ -45,6 +45,11 @@ function btnDesencriptar(){
     const textEncriptado = desencriptar(textArea.value)
     mensaje.value = textEncriptado
     textArea.value = "";
+    mensaje.style.display = 'block';
+    copiar.style.display = 'block';
+    resultado.style.display = 'none';
+    mensaje.style.backgroundImage="none";
+    mensajebox.style.placeContent = "space-between";
     }
 }
 
